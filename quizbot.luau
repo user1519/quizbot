@@ -1071,6 +1071,13 @@ chemistry:Add("What is the name of the element with the symbol K?", {"Potassium"
 chemistry:Add("What is the name of the process that separates a mixture of liquids based on their boiling points?", {"Distillation", "Filtration", "Crystallization", "Chromatography"})
 chemistry:Add("What is the name of the organic compound that has the general formula CnH2n+2?", {"Alkane", "Alkene", "Alkyne", "Ammonia"}, 2)
 
+local BFDI = categoryManager .New("BFFI", "medium
+BFDI:Add("What is the name of the prize in BFDI?", {"Dream island", "1M dollars", "Mansion", "Personaly recovery center"})
+BFDI:Add("What is the hosts of season four?", {"Four and X", "Announcer and Puffball", "Two and Four", "None of the above"})
+BFDI:Add("What is the name of season 5?", {"BFDIAA", "BFDIA", "IDFB", "BFB"
+BFDI:Add("How many contestants were in the original BFDI?", {"Twenty one", "Nineteen", "Fourty", "Twenty two"})
+BFDI:Add("In 2013 BFDI took", {"A hiatus", "A ban", "A new season", "A copyright strike"})
+
 local biology = categoryManager.New("Biology", "medium")
 biology:Add("What is the name of the process by which plants make their own food?", {"Photosynthesis", "Respiration", "Transpiration", "Fermentation"})
 biology:Add("What is the smallest unit of life?", {"Cell", "Atom", "Molecule", "Organ"})
